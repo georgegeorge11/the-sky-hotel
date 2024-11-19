@@ -1,0 +1,109 @@
+
+
+.list-item {
+  transition: transform 0.2s ease;
+}
+
+.list-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .container {
+  max-width: 900px;
+} */
+
+
+
+
+/* General Bookings Section Styling */
+.bookings-section {
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+  padding: 60px 0;
+}
+
+.highlight {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+/* Card Styling */
+.offer-card {
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ff5722;
+}
+
+/* Ribbon for Special Offers */
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 150px;
+  padding: 5px 0;
+  background: #ff5722;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  transform: rotate(45deg);
+  top: 20px;
+  right: -30px;
+}
+
+/* Glow Effect on Buttons */
+.glow-on-hover {
+  background: #007bff;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glow-on-hover:hover {
+  background: #0056b3;
+  box-shadow: 0px 0px 20px 4px rgba(0, 91, 187, 0.7);
+}
+
+/* Decorative Dividers */
+h2::after {
+  content: "✨✨✨";
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #ff5722;
+}
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.offer-card {
+  animation: fadeInUp 0.5s ease-in-out;
+}
