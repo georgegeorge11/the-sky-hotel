@@ -1,12 +1,15 @@
 import {  NavLink } from "react-router-dom"
-
+import '../components/style.css'
 
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
     <div className="container">
       <NavLink className="navbar-brand fw-bold" to="/">
-        The Sky Hotel
+      <div className="navbar-logo" >
+        
+      </div>
+        {/* The Sky Hotel */}
       </NavLink>
       <button
         className="navbar-toggler"
