@@ -1,3 +1,16 @@
+import  double1 from '../src/assets/double1.png';
+import  double2 from '../src/assets/double2.png';
+import  double3 from '../src/assets/double3.png';
+import  single1 from '../src/assets/single1.png';
+import  single2 from '../src/assets/single2.png';
+import  single3 from '../src/assets/single3.png';
+import  suite1 from '../src/assets/suite1.png';
+import  suite2 from '../src/assets/suite2.png';
+import  suite3 from '../src/assets/suite3.png';
+import  suite4 from '../src/assets/suite4.png';
+import  triple1 from '../src/assets/triple1.png';
+import  triple2 from '../src/assets/triple2.png';
+import  triple3 from '../src/assets/triple3.png';
 export const bookingLists = [
   {
     "id": 1,
@@ -14,9 +27,9 @@ export const bookingLists = [
       "Curățenie zilnică"
     ],
     "images": [
-      "../assets/single1.png",
-      "../assets/single2.png",
-      "../assets/single3.png"
+      single1,
+      single2,
+      single3
     ]
   },
   {
@@ -34,9 +47,9 @@ export const bookingLists = [
       "Wi-Fi"
     ],
     "images": [
-      "../assets/double2.png",
-      "../assets/double3.png",
-      "../assets/double1.png"
+      double2,
+      double3,
+      double1
     ]
   },
   {
@@ -55,9 +68,9 @@ export const bookingLists = [
       "Transport gratuit la aeroport"
     ],
     "images": [
-      "../assets/triple2.png",
-      "../assets/triple3.png",
-      "../assets/triple1.png"
+      triple2,
+      triple3,
+      triple1
     ]
   },
   {
@@ -77,10 +90,10 @@ export const bookingLists = [
       "Acces la sala de fitness"
     ],
     "images": [
-      "../assets/suite2.png",
-      "../assets/suite3.png",
-      "../assets/suite1.png",
-      "../assets/suite4.png"
+      suite2,
+      suite3,
+      suite1,
+      suite4
     ]
   }
 ];
