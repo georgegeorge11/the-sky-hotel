@@ -2,73 +2,73 @@ export const organigramList = [
   {
     "name": "Cristea Robert Stefan",
     "position": "General Manager",
-    "image": "../assets/organigram/Cristea Robert.png",
+    "image": "src/assets/Cristea Robert.png",
     "subordinates": [
       {
         "name": "Beglet Bianca Iulia",
         "position": "Sef contabil",
-        "image": "../assets/organigram/Beglet Bianca.png",
+        "image": "src/assets/Beglet Bianca.png",
         "subordinates": [
           {
             "name": "Negraia Carmen Mihaela",
             "position": "Angajat departament contabilitate",
-            "image": "../assets/organigram/Negraia Carmen.png"
+            "image": "src/assets/Negraia Carmen.png"
           },
           {
             "name": "Anton Ana Maria",
             "position": "Angajat departament contabilitate",
-            "image": "../assets/organigram/Anton Ana.png"
+            "image": "src/assets/Anton Ana.png"
           }
         ]
       },
       {
         "name": "Croitoru Iolanda Ioana",
         "position": "Sef resurse umane",
-        "image": "../assets/organigram/Croitoru Iolanda.png",
+        "image": "src/assets/Croitoru Iolanda.png",
         "subordinates": [
           {
             "name": "Ionescu Timeea Maria",
             "position": "Angajat departament resurse",
-            "image": "../assets/organigram/Ionescu Timeea.png"
+            "image": "src/assets/Ionescu Timeea.png"
           }
         ]
       },
       {
         "name": "Panfil Florin Eduard",
         "position": "Sef IT",
-        "image": "../assets/organigram/Panfil Florin.png"
+        "image": "src/assets/Panfil Florin.png"
       },
       {
         "name": "Stegaru Doinita Mihaela",
         "position": "Sef comerciale",
-        "image": "../assets/organigram/Stegaru Mihaela.png",
+        "image": "src/assets/Stegaru Mihaela.png",
         "subordinates": [
           {
             "name": "Rusu Denisa Gabriela",
             "position": "Angajat departament comerciale",
-            "image": "../assets/organigram/Rusu Denisa.png"
+            "image": "src/assets/Rusu Denisa.png"
           },
           {
             "name": "Dima Vivian",
             "position": "Angajat departament comerciale",
-            "image": "../assets/organigram/Dima Vivian.png"
+            "image": "src/assets/Dima Vivian.png"
           }
         ]
       },
       {
         "name": "Nistor Denisa Mihaela",
         "position": "Sef Marketing",
-        "image": "../assets/organigram/Nistor Denisa.png",
+        "image": "src/assets/Nistor Denisa.png",
         "subordinates": [
           {
             "name": "Sorcaru Andra Cosmina",
             "position": "Angajat department marketing",
-            "image": "../assets/organigram/Sorcaru Andra.png"
+            "image": "src/assets/Sorcaru Andra.png"
           },
           {
             "name": "Cocea Tudor",
             "position": "Angajat department marketing",
-            "image": "../assets/organigram/Cocea Tudor.png"
+            "image": "src/assets/Cocea Tudor.png"
           }
         ]
       }
