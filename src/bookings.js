@@ -14,9 +14,9 @@ export const bookingLists = [
       "Curățenie zilnică"
     ],
     "images": [
-      "src/assets/rooms/single_room/single1.png",
-      "src/assets/rooms/single_room/single2.png",
-      "src/assets/rooms/single_room/single3.png"
+      "../assets/rooms/single_room/single1.png",
+      "../assets/rooms/single_room/single2.png",
+      "../assets/rooms/single_room/single3.png"
     ]
   },
   {
@@ -34,9 +34,9 @@ export const bookingLists = [
       "Wi-Fi"
     ],
     "images": [
-      "src/assets/rooms/double_room/double2.png",
-      "src/assets/rooms/double_room/double3.png",
-      "src/assets/rooms/double_room/double1.png"
+      "../assets/rooms/double_room/double2.png",
+      "../assets/rooms/double_room/double3.png",
+      "../assets/rooms/double_room/double1.png"
     ]
   },
   {
@@ -55,9 +55,9 @@ export const bookingLists = [
       "Transport gratuit la aeroport"
     ],
     "images": [
-      "src/assets/rooms/triple_room/triple2.png",
-      "src/assets/rooms/triple_room/triple3.png",
-      "src/assets/rooms/triple_room/triple1.png"
+      "../assets/rooms/triple_room/triple2.png",
+      "../assets/rooms/triple_room/triple3.png",
+      "../assets/rooms/triple_room/triple1.png"
     ]
   },
   {
@@ -77,10 +77,10 @@ export const bookingLists = [
       "Acces la sala de fitness"
     ],
     "images": [
-      "src/assets/rooms/suite/suite2.png",
-      "src/assets/rooms/suite/suite3.png",
-      "src/assets/rooms/suite/suite1.png",
-      "src/assets/rooms/suite/suite4.png"
+      "../assets/rooms/suite/suite2.png",
+      "../assets/rooms/suite/suite3.png",
+      "../assets/rooms/suite/suite1.png",
+      "../assets/rooms/suite/suite4.png"
     ]
   }
 ];
