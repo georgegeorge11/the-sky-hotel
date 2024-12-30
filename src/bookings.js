@@ -1,27 +1,86 @@
 export const bookingLists = [
-      {
-        "id": 1,
-        "title": "Sf. Nicolae Special",
-        "date": "06.12.2024",
-        "description": "Enjoy 2 nights with meals included and a festive party starting at 8 PM.",
-        "packages": [
-          { "details": "2 Nights - 700 LEI per person" }
-        ],
-        "includes": ["Meals Included", "Access to Party"],
-      },
-      {
-        "id": 2,
-        "title": "Christmas Offer",
-        "date": "December 23-27, 2024",
-        "description": "Celebrate Christmas at Hotel 'The Sky' with the following packages:",
-        "packages": [
-          { "details": "3 Nights / 4 Days: 2450 RON (Double Room Standard)" },
-          { "details": "4 Nights / 5 Days: 2950 RON (Double Room Standard)" }
-        ],
-        "includes": [
-          "Accommodation with Breakfast",
-          "Buffet Meals",
-          "Santa Claus Visit & Caroling Show"
-        ]
-      }
+  {
+    "id": 1,
+    "title": "Camere Single",
+    "description": "240 LEI / noapte - 4 camere cu capacitate maxima de 2 persoane, 1 pat.",
+    "date": "Disponibilitate: Toată luna",
+    "packages": [
+      { "details": "Mic dejun inclus" },
+      { "details": "Acces gratuit la internet" }
+    ],
+    "includes": [
+      "Acces la piscină",
+      "Parcare gratuită",
+      "Curățenie zilnică"
+    ],
+    "images": [
+      "src/assets/rooms/single_room/single1.png",
+      "src/assets/rooms/single_room/single2.png",
+      "src/assets/rooms/single_room/single3.png"
     ]
+  },
+  {
+    "id": 2,
+    "title": "Camere Double",
+    "description": "344 LEI / noapte - 10 camere cu capacitate maxima de 3 persoane, 2 paturi.",
+    "date": "Disponibilitate: Luni - Vineri",
+    "packages": [
+      { "details": "Mic dejun inclus" },
+      { "details": "Acces la sală de fitness" }
+    ],
+    "includes": [
+      "Acces la piscină",
+      "Parcare gratuită",
+      "Wi-Fi"
+    ],
+    "images": [
+      "src/assets/rooms/double_room/double2.png",
+      "src/assets/rooms/double_room/double3.png",
+      "src/assets/rooms/double_room/double1.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Camere Triple",
+    "description": "420 LEI / noapte - 5 camere cu capacitate maxima de 4 persoane, 2 paturi si o canapea extensibila.",
+    "date": "Disponibilitate: În perioada vacanței școlare",
+    "packages": [
+      { "details": "Mic dejun inclus" },
+      { "details": "Acces gratuit la internet" }
+    ],
+    "includes": [
+      "Acces la piscină",
+      "Parcare gratuită",
+      "Curățenie zilnică",
+      "Transport gratuit la aeroport"
+    ],
+    "images": [
+      "src/assets/rooms/triple_room/triple2.png",
+      "src/assets/rooms/triple_room/triple3.png",
+      "src/assets/rooms/triple_room/triple1.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Apartament",
+    "description": "500 LEI / noapte - 5 apartamente cu capacitate maxima de 6 persoane, 2 paturi si o canapea extensibila.",
+    "date": "Disponibilitate: Toată luna",
+    "packages": [
+      { "details": "Mic dejun inclus" },
+      { "details": "Acces la jacuzzi privat" }
+    ],
+    "includes": [
+      "Acces la piscină",
+      "Parcare gratuită",
+      "Wi-Fi",
+      "Curățenie zilnică",
+      "Acces la sala de fitness"
+    ],
+    "images": [
+      "src/assets/rooms/suite/suite2.png",
+      "src/assets/rooms/suite/suite3.png",
+      "src/assets/rooms/suite/suite1.png",
+      "src/assets/rooms/suite/suite4.png"
+    ]
+  }
+];

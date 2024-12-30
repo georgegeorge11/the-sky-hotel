@@ -1,13 +1,26 @@
 import { useEffect, useState } from "react";
 import { FaBed, FaGift, FaCalendarAlt } from "react-icons/fa";
 import { bookingLists } from "../bookings";
-import './style.css'
+import Slider from "react-slick";
+import './style.css';
+
 export const Bookings = () => {
   const [offers, setOffers] = useState([]);
 
-  useEffect(()=>{
-    setOffers(bookingLists)
-  },[])
+  useEffect(() => {
+    setOffers(bookingLists);
+  }, []);
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+  };
 
   return (
     <div className="bookings-section py-5">
@@ -18,15 +31,8 @@ export const Bookings = () => {
         <div className="row">
           {offers.map((offer) => (
             <div key={offer.id} className="col-md-6 col-lg-4 my-3">
-              <div className="card offer-card shadow-sm h-100 position-relative">
-                {/* Highlight Ribbon */}
-                {offer.id === 1 && (
-                  <div className="ribbon">
-                    <span>Special Offer</span>
-                  </div>
-                )}
-
-                <div className="card-body d-flex flex-column">
+              <div className="card offer-card shadow-lg h-100 position-relative rounded overflow-hidden">
+                <div className="card-body d-flex flex-column p-4">
                   {/* Title and Date */}
                   <h5 className="card-title text-center text-primary">
                     {offer.title}
@@ -35,6 +41,21 @@ export const Bookings = () => {
                     <FaCalendarAlt className="me-2" />
                     {offer.date}
                   </p>
+
+                  {/* Image Slider */}
+                  <div className="image-gallery mb-3">
+                    <Slider {...sliderSettings}>
+                      {offer.images.map((image, index) => (
+                        <div key={index}>
+                          <img
+                            src={image}
+                            alt={offer.title}
+                            className="img-fluid rounded"
+                          />
+                        </div>
+                      ))}
+                    </Slider>
+                  </div>
 
                   {/* Description */}
                   <p className="card-text">{offer.description}</p>
@@ -82,5 +103,5 @@ export const Bookings = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

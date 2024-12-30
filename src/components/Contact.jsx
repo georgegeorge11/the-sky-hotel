@@ -81,8 +81,8 @@ export const Contact = () => {
       <div className="col-md-6">
         <h2 className="mb-4">Our Contact Details</h2>
         <p className="mb-2"><strong>Address:</strong> Strada Pașcani, Brașov</p>
-        <p className="mb-2"><strong>Phone:</strong> +1 (800) 123-4567</p>
-        <p className="mb-2"><strong>Email:</strong> <a href="mailto:contact@hotelmanagement.com">contact@hotelmanagement.com</a></p>
+        <p className="mb-2"><strong>Phone:</strong> 0753829104</p>
+        <p className="mb-2"><strong>Email:</strong> <a href="mailto:contact.thesky0@gmail.com">contact.thesky0@gmail.com</a></p>
 
         {/* Google Map */}
         <div className="mt-4">
@@ -99,7 +99,7 @@ export const Contact = () => {
         </div>
       </div>
     </div>
-    
+
     <div className="container mt-5">
       <h2 className="text-center mb-4">Hotel Management Organigram</h2>
       <div className="list-container">
@@ -111,7 +111,7 @@ export const Contact = () => {
         ))}
       </div>
     </div>
-   
+
   </div>
   )
 }

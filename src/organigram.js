@@ -1,55 +1,77 @@
 export const organigramList = [
   {
-    "name": "John Smith",
+    "name": "Cristea Robert Stefan",
     "position": "General Manager",
-    "image": "https://via.placeholder.com/100",
+    "image": "src/assets/organigram/Cristea Robert.png",
     "subordinates": [
       {
-        "name": "Mary Johnson",
-        "position": "Operations Manager",
-        "image": "https://via.placeholder.com/100",
+        "name": "Beglet Bianca Iulia",
+        "position": "Sef contabil",
+        "image": "src/assets/organigram/Beglet Bianca.png",
         "subordinates": [
           {
-            "name": "James Lee",
-            "position": "Front Office Supervisor",
-            "image": "https://via.placeholder.com/100"
+            "name": "Negraia Carmen Mihaela",
+            "position": "Angajat departament contabilitate",
+            "image": "src/assets/organigram/Negraia Carmen.png"
           },
           {
-            "name": "Emily Davis",
-            "position": "Housekeeping Supervisor",
-            "image": "https://via.placeholder.com/100"
+            "name": "Anton Ana Maria",
+            "position": "Angajat departament contabilitate",
+            "image": "src/assets/organigram/Anton Ana.png"
           }
         ]
       },
       {
-        "name": "Robert Wilson",
-        "position": "Finance Manager",
-        "image": "https://via.placeholder.com/100",
+        "name": "Croitoru Iolanda Ioana",
+        "position": "Sef resurse umane",
+        "image": "src/assets/organigram/Croitoru Iolanda.png",
         "subordinates": [
           {
-            "name": "Linda Martinez",
-            "position": "Accountant",
-            "image": "https://via.placeholder.com/100"
+            "name": "Ionescu Timeea Maria",
+            "position": "Angajat departament resurse",
+            "image": "src/assets/organigram/Ionescu Timeea.png"
           }
         ]
       },
       {
-        "name": "Michael Brown",
-        "position": "Marketing Manager",
-        "image": "https://via.placeholder.com/100",
+        "name": "Panfil Florin Eduard",
+        "position": "Sef IT",
+        "image": "src/assets/organigram/Panfil Florin.png"
+      },
+      {
+        "name": "Stegaru Doinita Mihaela",
+        "position": "Sef comerciale",
+        "image": "src/assets/organigram/Stegaru Mihaela.png",
         "subordinates": [
           {
-            "name": "Susan Taylor",
-            "position": "Social Media Specialist",
-            "image": "https://via.placeholder.com/100"
+            "name": "Rusu Denisa Gabriela",
+            "position": "Angajat departament comerciale",
+            "image": "src/assets/organigram/Rusu Denisa.png"
           },
           {
-            "name": "David Anderson",
-            "position": "Sales Executive",
-            "image": "https://via.placeholder.com/100"
+            "name": "Dima Vivian",
+            "position": "Angajat departament comerciale",
+            "image": "src/assets/organigram/Dima Vivian.png"
+          }
+        ]
+      },
+      {
+        "name": "Nistor Denisa Mihaela",
+        "position": "Sef Marketing",
+        "image": "src/assets/organigram/Nistor Denisa.png",
+        "subordinates": [
+          {
+            "name": "Sorcaru Andra Cosmina",
+            "position": "Angajat department marketing",
+            "image": "src/assets/organigram/Sorcaru Andra.png"
+          },
+          {
+            "name": "Cocea Tudor",
+            "position": "Angajat department marketing",
+            "image": "src/assets/organigram/Cocea Tudor.png"
           }
         ]
       }
     ]
   }
-]
+];
